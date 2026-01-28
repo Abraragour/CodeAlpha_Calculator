@@ -1,16 +1,24 @@
-# React + Vite
+# CodeAlpha - Modern React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive calculator built with **React.js** and **Tailwind CSS**. This project was developed as Task 2 during my Web Development Internship at **CodeAlpha**.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **Keyboard Support:** Full integration for physical numeric keypad inputs (Enter for `=`, Backspace for `DEL`) using `useEffect`.
+- **Real-time Calculation:** Powered by a robust JavaScript (ES6+) engine for precise arithmetic operations.
+- **Responsive UI:** Minimalist and professional design optimized for mobile and desktop using Tailwind CSS.
+- **Error Handling:** Smart management for invalid operations like division by zero.
+- **Advanced State Management:** Efficient input flow handling using React `useState` hooks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Framework:** React.js
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-## React Compiler
+## 📂 Project Structure
+- `src/components`: UI components (Buttons, Display).
+- `src/hooks`: Custom logic for keyboard listeners.
+- `App.js`: Main application logic and state management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 Author
+- **Abrar Agour**
+---
